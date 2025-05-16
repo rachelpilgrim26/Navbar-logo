@@ -61,3 +61,16 @@ body {
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
+img {
+  border: 2px solid yellow;
+  width: 800px;
+  height: auto;
+}
+@media (max-width: 550px) {
+  img {
+    display: block;
+    margin: 0;
+    width: auto;
+    height: 300px;
+  }
+}
